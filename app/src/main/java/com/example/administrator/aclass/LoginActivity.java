@@ -18,8 +18,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-
-        button.findViewById(R.id.submit);
+        button = (Button)findViewById(R.id.submit);
         button.setOnClickListener(this);
     }
 
